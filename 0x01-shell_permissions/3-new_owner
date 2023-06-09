@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo chown betty /tmp/h/hello
+cd /tmp/h
+sudo chown betty hello
