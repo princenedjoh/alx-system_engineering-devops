@@ -3,5 +3,6 @@ fileName=$1
 echo $fileName
 
 touch $fileName
+chmod u+x $fileName
 echo '#!/bin/bash' > $fileName
 vim $fileName
