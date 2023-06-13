@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello, Code!" | tr -d 'cC'
+tr -d 'cC' $1
