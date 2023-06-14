@@ -1,2 +1,2 @@
 #!/bin/bash
-(echo "Local Variables:"; set -o posix; set | grep -P '^\w+='; echo "Environment Variables:"; printenv; echo "Functions:"; declare -F)
+echo $(set)
